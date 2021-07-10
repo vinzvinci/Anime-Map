@@ -26,12 +26,12 @@ header {
 }
 
 .RegisterButton {
-  margin-top: 310px;
+  margin-top: 36%;
   box-shadow: 0px 10px 14px -7px #1a1003;
   background: linear-gradient(to bottom, #e4d4d4 5%, #9c6f14 100%);
   background-color: #a33401;
   border-radius: 8px;
-  display: inline-block;
+  display: inline-flex;
   cursor: pointer;
   color: #0e2241;
   font-family: Arial;
