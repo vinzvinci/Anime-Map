@@ -28,12 +28,11 @@ header {
 .RegisterButton {
   margin-top: 310px;
   box-shadow: 0px 10px 14px -7px #1a1003;
-  background: linear-gradient(to bottom, #e4d4d4 5%, #9c6f14 100%);
-  background-color: #a33401;
+  background: linear-gradient(to bottom, #000 5%, #e4d4d4 150%);
   border-radius: 8px;
   display: inline-block;
   cursor: pointer;
-  color: #0e2241;
+  color: #fff;
   font-family: Arial;
   font-size: 20px;
   font-weight: bold;
@@ -43,8 +42,7 @@ header {
 }
 
 .RegisterButton:hover {
-  background: linear-gradient(to bottom, #9c6f14 5%, #d5e03a 100%);
-  background-color: #9c6f14;
+  background: #000;
   color: white;
 }
 
