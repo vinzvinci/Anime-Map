@@ -1,66 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" >
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Playlist</title>
-    <link rel="stylesheet" href="playlist.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <title>AniMap</title>
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'><link rel="stylesheet" href="./playlist.css">
+
 </head>
-
 <body>
-    <header>
-    </header>
-    <main>
-       
-        <section class="content">
-            <div class="music-head">
-                <img src="/data/unnamed.jpg" width=100px alt="">
-                <section class="catty-music">
+<!-- partial:index.partial.html -->
+<!-- Tracks used in this music/audio player application are free to use. I downloaded them from Soundcloud and NCS websites. I am not the owner of these tracks. -->
 
-                    <div>
-                        <p>Discovery Music</p>
-                        <p>Artist : Random</p>
-                        <p>Top Charts : June 2021</p>
-                    </div>
-
-                    <div>
-                        <i class="fa fa-play"> &nbsp;Play all</i>
-                        <i class="fa fa-plus"> &nbsp;Add to</i>
-                        <i class="fa fa-ellipsis-h">&nbsp;&nbsp;More</i>
-
-                    </div>
-                </section>
+    <div id="app-cover">
+        <div id="bg-artwork"></div>
+        <div id="bg-layer"></div>
+        <div id="player">
+            <div id="player-track">
+                <div id="album-name"></div>
+                <div id="track-name"></div>
+                <div id="track-time">
+                    <div id="current-time"></div>
+                    <div id="track-length"></div>
+                </div>
+                <div id="s-area">
+                    <div id="ins-time"></div>
+                    <div id="s-hover"></div>
+                    <div id="seek-bar"></div>
+                </div>
             </div>
+            <div id="player-content">
+                <div id="album-art">
+                    <img src="" class="active" id="_1">
+                    <!--add more images-->
+                    <div id="buffer-box">Buffering ...</div>
+                </div>
+                <div id="player-controls">
+                    <div class="control">
+                        <div class="button" id="play-previous">
+                            <i class="fas fa-backward"></i>
+                        </div>
+                    </div>
+                    <div class="control">
+                        <div class="button" id="play-pause-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="control">
+                        <div class="button" id="play-next">
+                            <i class="fas fa-forward"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-            <ul class="music-list">
-                <!--Second list item: Contains a list of all songs displayed-->
-                <li>
-                    <p>1. One Dance</p>
-                    <p>Crake feat CatKid &amp; Cyla</p>
-                    <p>2:54</p>
-                    <p><span class="catty-cloud">CATTY CLOUD SYNC</span></p>
-                </li>
+<!-- <a href="https://www.youtube.com/channel/UC7hSS_eujjZOEQrjsda76gA/videos" target="_blank" id="ytd-url">My YouTube Channel</a> -->
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script  src="./playlist.js"></script>
 
-            </ul>
-        </section>
-    </main>
-    <footer>
-       <aside> <img src="/data/attack-on-titans/e698a573a6d50ed3419a7dbd46d4f320.jpg"  width="70px" height="50px" alt="havanna"></aside>
-        <block class="content" > 
-            <i class="fa fa-fast-backward"style="font-size:28px;color:rgb(65, 192, 40);margin:5px;"></i>
-            <i class="fa fa-play"style="font-size:28px;color:rgb(65, 192, 40);margin:5px;" ></i>
-            <i class="fa fa-fast-forward" style="font-size:28px;margin:5px;color:rgb(65, 192, 40)" ></i>
-        </block>
-        <block class="content">
-            <i class="fa fa-random" style="font-size:28px;margin:5px;color:rgb(65, 192, 40)"></i>
-            <i class="fa fa-volume-up" style="font-size:28px;margin:5px;color:rgb(65, 192, 40)"></i>
-        </block>
-    </footer>
 </body>
-
 </html>
