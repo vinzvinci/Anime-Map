@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <title>AniMap</title> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+ </head> 
+ <body> 
+  <style>
+    
+ .carimage {
+   
+   width: 100%;
+  
+ }
+  
+ h3 {
+   text-align: center;
+   color: white;
+ } 
+ 
+ 
+ 
+ body {
+   background-image: url("   https://media1.giphy.com/media/jruP6eiU36Kfgd8W5q/giphy.gif?cid=6c09b952923864af36a6d997a4dda9bd99a9bba0629dea56&rid=giphy.gif   ");
+   background-size: cover;
+ }
+ 
+.fcard {
+  height: 50%;
+  background-color: white;
+  margin: auto;
+  border: solid grey;
+  border-radius: 10px;
+}
+
+.gifcard {
+    text-align: center;
+    position: relative;
+    margin: auto;
+    width: 350px;
+    height: 350px;    
+}
+
+.chlist{
+    
+    width: 350px;
+  
+}
+
+
+.animegif {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-radius: 10px;
+    border: solid black;
+    
+  }
+
+.btn-sm {
+   
+   background-color: white;
+}
+
+.list-group-item {
+   text-align: center;
+   color: white;
+}
+
+.ch {
+  text-align: center;
+  color: white;
+}
+
+
+/*.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}*/
+
+.head1 {
+  text-align: center;
+  margin: auto;
+  color: white;
+} 
+
+.cbar {
+  border-radius: 10px;
+}
+ 
+ 
+  #ch1 {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+  
+  #manga {
+    margin: auto;
+    padding: 10px;
+    height: 900px;
+  }
+ 
+ 
+ 
+ 
+ 
+ //footerstyle
+ 
+ 
+ 
+ @import url(https://fonts.googleapis.com/css?family=Rubik:300,400,500,700);
+body {
+ font-family:Rubik,sans-serif;
+ position:relative;
+ font-weight:400;
+ font-size:15px
+}
+
+ul {
+ padding:0;
+ margin:0
+}
+li {
+ list-style:none;
+}
+a:focus,a:hover {
+ text-decoration:none;
+ -webkit-transition:.3s ease;
+ -o-transition:.3s ease;
+ transition:.3s ease
+}
+a:focus {
+ outline:0
+}
+img {
+ max-width:100%
+}
+p {
+ font-size:16px;
+ line-height:30px;
+ color:#898b96;
+ font-weight:300
+}
+h4 {
+ font-family:Rubik,sans-serif;
+ margin:0;
+ font-weight:400;
+ padding:0;
+ color:#363940
+}
+a {
+ color:#5867dd
+}
+.no-padding {
+ padding:0!important
+}
+.go_top {
+ line-height:40px;
+ cursor:pointer;
+ width:40px;
+ background:#5867dd;
+ color:#fff;
+ position:fixed;
+ -webkit-box-shadow:0 4px 4px rgba(0,0,0,.1);
+ box-shadow:0 4px 4px rgba(0,0,0,.1);
+ -webkit-border-radius:50%;
+ border-radius:50%;
+ right:-webkit-calc((100% - 1140px)/ 2);
+ right:calc((100% - 1140px)/ 2);
+ z-index:111;
+ bottom:80px;
+ text-align:center
+}
+.go_top span {
+ display:inline-block
+}
+.footer-big {
+ padding:50px 0 65px 0
+}
+.footer-big .footer-widget {
+ margin-bottom:40px
+}
+.footer--light {
+ background:#e7e8ed
+}
+.footer-big .footer-menu ul li a,.footer-big p,.footer-big ul li {
+ color:#898b96
+}
+.footer-menu {
+ padding-left:48px
+}
+.footer-menu ul li a {
+ font-size:15px;
+ line-height:32px;
+ -webkit-transition:.3s;
+ -o-transition:.3s;
+ transition:.3s
+}
+.footer-menu ul li a:hover {
+ color:#5867dd
+}
+.footer-menu--1 {
+ width:100%
+}
+.footer-widget-title {
+ line-height:42px;
+ margin-bottom:10px;
+ font-size:18px
+}
+.mini-footer {
+ background:#192027;
+ text-align:center;
+ padding:10px 0
+}
+.mini-footer p {
+ margin:0;
+ line-height:26px;
+ font-size:15px;
+ color:#999
+}
+.mini-footer p a {
+ color:#5867dd
+}
+.mini-footer p a:hover {
+ color:#34bfa3
+}
+.widget-about img {
+ display:block;
+ margin-bottom:30px
+}
+.widget-about p {
+ font-weight:400
+}
+.widget-about .contact-details {
+ margin:30px 0 0 0
+}
+.widget-about .contact-details li {
+ margin-bottom:10px
+}
+.widget-about .contact-details li:last-child {
+ margin-bottom:0
+}
+.widget-about .contact-details li span {
+ padding-right:12px
+}
+.widget-about .contact-details li a {
+ color:#5867dd
+}
+@media (max-width:991px) {
+ .footer-menu {
+  padding-left:0
+ }
+}
+
+    
+  </style> 
+  <!-- navbar --> 
+  <nav class="navbar fixed-top navbar-expand-md bg-dark navbar-dark"> 
+   <a class="navbar-brand" href="#">AniMap</a> 
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> <span class="navbar-toggler-icon"></span> </button> 
+   <div class="collapse navbar-collapse" id="collapsibleNavbar"> 
+    <ul class="navbar-nav"> 
+     <li class="nav-item"> <a class="nav-link" href="main.html">Home</a> </li> 
+     <li class="nav-item"> <a class="nav-link" href="#">History</a> </li> 
+     <li class="nav-item"> <a class="nav-link" href="#">Music</a> </li>
+    </ul> 
+   </div> 
+  </nav> 
+  <!-- content --> 
+  <!-- pic --> 
+  <br> 
+  <br> 
+  <br> 
+  <div> 
+   <h1 class="head1">Tokyo Ghoul
+     <br> The End
+   </h1> 
+   
+  </div> 
+  <br> 
+  <div class="flip-card-front gifcard"> 
+   <!-- <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">--> 
+   <iframe class="animegif" src="https://giphy.com/embed/e9pFONc1qhUje" width="252" height="410" frameborder="0" allowfullscreen></iframe> 
+  </div> 
+  <br> 
+  <!-- list --> 
+  <div class="container chlist"> 
+   <nav class="cbar navbar bg-dark navbar-dark"> 
+    <a class="navbar-brand" href="#">Developers</a> 
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar1"> <span class="navbar-toggler-icon"></span> </button> 
+    <div class="collapse navbar-collapse" id="collapsibleNavbar1"> 
+     <ul class="navbar-nav"> 
+      <li class="nav-item" onclick="read()"> <a class="nav-link ch" href="#">Karuna</a> </li> 
+      <li class="nav-item"> <a class="nav-link ch" href="#">Dheeraj</a> </li> 
+      <li class="nav-item"> <a class="nav-link ch" href="#">Vincent</a> </li> 
+      <li class="nav-item"> <a class="nav-link ch" href="#">Rajiv</a> </li> 
+     </ul> 
+    </div> 
+   </nav> 
+  </div> 
+  <!-- reading panel script --> 
+  <script> 
+    function read() { 
+      var pdf = document.getElementById("manga"); 
+      
+      if (pdf.style.display == "none"){
+        pdf.style.display = "block";
+      } else {
+        pdf.style.display = "none";
+      }
+      
+      } 
+  </script> 
+  <br> 
+  <!-- reading panel --> 
+  <div id="manga" style="display:none"> 
+   <object id="ch1" data="https://drive.google.com/file/d/1mYgDgdYYRlX1eGb-l5Q4HaVcGoiJ9AoB/preview" width="600" height="800"> <embed src="https://drive.google.com/file/d/1mYgDgdYYRlX1eGb-l5Q4HaVcGoiJ9AoB/preview" width="600px" height="800px"> 
+    <!--https://drive.google.com/file/d/1mYgDgdYYRlX1eGb-l5Q4HaVcGoiJ9AoB--> This browser does not support PDFs. Please download the PDF to view it: View the PDF. </object> 
+  </div> 
+  <br> 
+ 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <style>
+
+</style> 
+ </body>
+</html>
