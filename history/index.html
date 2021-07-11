@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>AniMap(enable audio!)</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="c-mm">
+    <details>
+      <summary class="c-mm__play"><span data-css-icon="play"><i></i></span></summary>
+      <span hidden></span>
+    </details>
+    <div class="c-mm__inner">
+      <figure data-filter="grainy text" class="c-mm__frame" style="--animn:none;--index:0;">
+        <figcaption>
+          »The Evolution Of Anime«
+          <div>A memory lane walk down</div>
+        </figcaption>
+      </figure>
+
+      <figure data-filter="grainy" class="c-mm__frame" style="--animn:kenburns-bottom-left;--index:1;">
+        <img class="c-mm__img" src="firstanime.png" />
+        <figcaption data-caption="bottom left">
+          it first appeared in 1917, anime — or Japanese animation &hellip;
+          <div>The first anime — a short titled Namakura Gatana (The Dull Sword) made by artist Jun'ichi Kōuchi</div>
+        </figcaption>
+      </figure>
+
+      <figure data-filter="grainy text" class="c-mm__frame" style="--animn:none;--index:2;">
+        <figcaption>
+          1963's 'Astro Boy' Was The First Televised Anime
+          <div>aired on Fuji Television on January 1, 1963.</div>
+        </figcaption>
+      </figure>
+      
+      <figure data-filter="grainy" class="c-mm__frame" style="--animn:kenburns-bottom-left;--index:4;">
+        <img class="c-mm__img" src="early-anime-was-heavily-influenced-by-disney-photo-u1.jpeg" />
+        <figcaption data-caption="bottom left">
+          Disney influenced more than just films
+          <div>Yes! anime too</div>
+        </figcaption>
+      </figure>
+
+      <figure data-filter="grainy" class="c-mm__frame" style="--animn:kenburns-top;--index:3;">
+        <img class="c-mm__img" src="anime-ideas-are-coming-from-new-places-photo-u1.jpeg" />
+        <figcaption data-caption="bottom left">
+          One-Punch Man, one of the most popular anime to appear in recent years, 
+          <div>takes its inspiration from a webcomic.</div>
+        </figcaption>
+      </figure>
+
+      <figure data-filter="grainy" class="c-mm__frame" style="--animn:kenburns-bottom;--index:5;">
+        <img class="c-mm__img" src="sports-anime-mecha-anime-and-other-genres-were-established-photo-u1.jpeg" />
+        <figcaption data-caption="top right">
+          Sports Anime, Mecha Anime, And Other Genres
+          <div>Established In The 1970s and '80s</div>
+        </figcaption>
+      </figure>
+
+      <figure data-filter="grainy text" class="c-mm__frame" style="--animn:none;--index:6;">
+        <figcaption>
+          Mature And Thought-Provoking Content 
+          <div>&hellip; Became Popular In The Late '90s</div>
+        </figcaption>
+      </figure>
+
+      <figure data-filter="grainy" class="c-mm__frame" style="--animn:kenburns-top;--index:7;">
+        <img class="c-mm__img" src="mature-content-became-more-popular-photo-u1.jpeg" />
+        <figcaption data-caption="top left">
+          At first, cutout animation — a form of stop-motion animation typically using flat paper cutouts 
+           <div>In 20th century &hellip;</div>
+        </figcaption>
+      </figure>
+
+      <figure data-filter="grainy" class="c-mm__frame" style="--animn:kenburns-bottom-left;--index:8;">
+        <img class="c-mm__img" src="anime-is-going-back-to-its-roots-photo-u1.jpeg" />
+      </figure>
+
+      <figure data-filter="grainy text" class="c-mm__frame" style="--animn:none;--index:9;">
+        <figcaption>
+          The End
+          <div>(if you didn't know the history, you are still an anime fan! ;))</div>
+        </figcaption>
+      </figure>
+
+    </div>
+    <audio src="https://elements.stoumann.dk/assets/audio/onion_capers.mp3" hidden loop></audio>
+  </div>
+
+  <svg>
+    <filter id="noise">
+      <feTurbulence baseFrequency="0.60" xresult="colorNoise" />
+      <feColorMatrix in="colorNoise" type="matrix" values=".33 .33 .33 0 0 .33 .33 .33 0 0 .33 .33 .33 0 0 0 0 0 1 0"/>
+      <feComposite operator="in" in2="SourceGraphic" result="monoNoise"/>
+      <feBlend in="SourceGraphic" in2="monoNoise" mode="multiply" />
+    </filter>
+  </svg>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
