@@ -4,7 +4,8 @@ html {
 
 body {
 	margin: 0;
-	background-color:skyblue;
+	background-color:#87ceeb;
+	
 }
 
 .imgWrapper {
@@ -27,7 +28,7 @@ body {
 	height: 100px;
 	border: 2px solid rgb(22, 21, 21);	
 	transition: height 1.0s ease, width 1.0s ease, box-shadow 1.0s ease;
-	background-color: #fff;
+	background-color: #f6e2b9;
 }
 
 .images:hover {
