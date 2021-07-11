@@ -10,8 +10,8 @@ body {
 
 .imgWrapper {
 	position: absolute;
-	width: 100px;
-	height: 100px;
+	width: 200px;
+	height: 200px;
 	transition: all 2.0s ease;
 }
 
@@ -24,16 +24,16 @@ body {
 	opacity: 1.0;
 	position: absolute;
 	display: none;
-	width: 100px;
-	height: 100px;
+	width: 200px;
+	height: 200px;
 	border: 2px solid rgb(22, 21, 21);	
 	transition: height 1.0s ease, width 1.0s ease, box-shadow 1.0s ease;
 	background-color: #f6e2b9;
 }
 
 .images:hover {
-	width: 150px;
-	height: 150px;
+	width: 350px;
+	height: 350px;
 	display: inline;
 	z-index:10;
 	box-shadow: 15px 15px 40px gray;
