@@ -1,4 +1,4 @@
-# Anime-Map
+# AniMap Radio
 
 
 
@@ -46,4 +46,4 @@
 
 
 
-## Build with ❤ by <a href ="https://github.com/rajivranjanmars" >Rajiv Ranjan </a> , <a href ="https://github.com/starlightknown" >Karuna Tata </a>,<a href ="https://github.com/vinzvinci" >Vincent Villafuerte</a> and <a href ="https://github.com/rajivranjanmars" >Dheeraj </a> 
+## Build with ❤ by <a href ="https://github.com/rajivranjanmars" >Rajiv Ranjan </a> , <a href ="https://github.com/starlightknown" >Karuna Tata </a>,<a href ="https://github.com/vinzvinci" >Vincent Villafuerte</a> and <a href ="https://github.com/D-zero-7" >Dheeraj </a> 
