@@ -1,0 +1,99 @@
+html {
+	overflow:	hidden;
+}
+
+body {
+	margin: 0;
+}
+
+.imgWrapper {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	transition: all 2.0s ease;
+}
+
+#imageSpace {
+	width: auto;
+	margin: 0px auto;	
+}
+
+.images {
+	opacity: 1.0;
+	position: absolute;
+	display: none;
+	width: 100px;
+	height: 100px;
+	border: 2px solid rgb(22, 21, 21);	
+	transition: height 1.0s ease, width 1.0s ease, box-shadow 1.0s ease;
+	background-color: #fff;
+}
+
+.images:hover {
+	width: 150px;
+	height: 150px;
+	display: inline;
+	z-index:10;
+	box-shadow: 15px 15px 40px gray;
+}
+
+.button {
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: inset 3px 3px 5px white, 5px 6px 5px 0px rgba(36, 36, 36, 0.82);
+  position: absolute;
+  color: white;
+  z-index: 100;
+  font-family: arial;
+  cursor: pointer;
+}
+.button:hover {
+  box-shadow:inset 3px 3px 5px white, 2px 3px 5px 0px rgba(36, 36, 36, 0.82);;
+}
+#shuffle {
+	background-color: red;
+	left: 50%;
+}
+
+#sort {
+	background-color: blue;
+	left: 59%;
+}
+
+.hitArea {
+	width: 76%;
+	height: 66%;
+	display: block;
+	border: 1px solid black;
+	margin: 11% 11%;
+}
+
+#message {
+	display: none;
+	color: #fff;
+	background-color: red;
+	padding: 15px 30px 25px 30px;
+	width: 400px;
+	height: 200px;
+	border-radius: 30px;
+	opacity: 0.9;
+	z-index: 1000;
+	position:relative;
+	margin: 0 auto;
+	margin-top: 15%;
+	font-size: 24px;
+	font-family: arial, "comic sans ms";
+	box-shadow: inset 4px 4px 15px 1px #fff;
+	border: solid 1px #A82222;
+}
+
+#message p {
+	text-shadow: 2px 2px 1px #000;
+}
+
+#msgWrapper {
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
